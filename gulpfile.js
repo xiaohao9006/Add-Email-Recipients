@@ -55,9 +55,15 @@ gulp.task('copyfonts', ['clean'], function() {
         .pipe(gulp.dest('./dist/fonts'));
 });
 
+gulp.task('copy', function () {
+    return gulp
+        .src('./app/contacts.json')
+        .pipe(gulp.dest('./dist'));
+});
+
 // Default task
 gulp.task('default', ['clean'], function() {
-    gulp.start('usemin', 'imagemin','copyfonts');
+    gulp.start('usemin', 'imagemin','copyfonts', 'copy');
 });
 
 // Watch
