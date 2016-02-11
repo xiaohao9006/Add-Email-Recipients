@@ -1,8 +1,14 @@
 /* app css stylesheet */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body{
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #18BC9C;
+  margin-bottom:80px;
 }
 
 .tag-template{
@@ -52,6 +58,7 @@ body{
 
 .email-content-field{
   width: 600px;
+  padding-bottom: 40px;
 }
 
 ::-webkit-input-placeholder {
@@ -99,10 +106,11 @@ body{
 }
 
 .footer {
+  position:absolute;
+  bottom:0;
   width: 100%;
   /*margin-top: 65px; /* negative value of footer height */
-  margin-top: 45px;
-  height: 120px;
+  height: 80px;
   padding-top:20px;
   background-color: #233140;
   color:#eee;
@@ -113,5 +121,5 @@ body{
 .footer-text {
   width:416px;
   margin:auto;
-  margin-top:25px;
+  margin-top:10px;
 }
