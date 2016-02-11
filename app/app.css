@@ -1,0 +1,117 @@
+/* app css stylesheet */
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #18BC9C;
+}
+
+.tag-template{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.autocomplete-template{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tag-template .left-panel {
+  float: left;
+}
+
+.tag-template .left-panel img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.tag-template .right-panel {
+  float: left;
+  margin-left: 5px;
+}
+
+
+
+.autocomplete-template .autocomplete-list-item {
+  margin-left: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.autocomplete-template span:first-child {
+  font-size: 14px;
+}
+
+.autocomplete-template span:last-child {
+  float: right;
+  font-size: 14px;
+  color: gray;
+}
+
+.autocomplete-template span:first-child em{
+  font-size: 14px;
+}
+
+.email-content-field{
+  width: 600px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #8A8A8A;
+}
+
+.form-control::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #8A8A8A;
+}
+
+.navbar-default {
+  height:100px;
+  border: none;
+  background-color: #2C3E50;
+  background-image: none;
+  border-radius:0px;
+  color:#fff;
+  padding:25px;
+}
+
+.navbar-default .navbar-brand {
+  color:#eee;
+  font-family: "Source Sans Pro";
+  font-size:32px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  background-color: transparent;
+  color: #eee;
+  cursor: default;
+}
+
+.email-form-label {
+  color: #eeeeee;
+  font-size:22px;
+}
+
+.instruction-text {
+  color: #eee;
+  font-size:16px;
+}
+
+.footer {
+  width: 100%;
+  /*margin-top: 65px; /* negative value of footer height */
+  margin-top: 45px;
+  height: 120px;
+  padding-top:20px;
+  background-color: #233140;
+  color:#eee;
+  font-family: "Source Sans Pro";
+  font-size:20px;
+}
+
+.footer-text {
+  width:416px;
+  margin:auto;
+  margin-top:25px;
+}
